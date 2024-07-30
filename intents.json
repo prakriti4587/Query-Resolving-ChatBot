@@ -1,0 +1,112 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hi there, how can I help?", "Hi! I am Neo, Your virtual assitant. I will guide you through our company's product", "Hello I am Neo! How can i help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Bye! Have a nice day","Hope you appreciate the assistance, Enjoy shopping at Nuria!", "Adios Amigo!, Neo signing off<3"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!", "My Pleasure", "Mention not!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "company",
+            "patterns": [
+                "Who developed you?"
+            ],
+            "responses": [
+                "I was developed by finest team of software developers at our company to assist you through our company and our products"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products",
+            "patterns": [
+                "What is your skin care line?", "What do you recomend best?", "What is your best selling product?"
+            ],
+            "responses": [
+                "We provide you the best products for your skin to make it healthy and clear. We recommend Nuria's: Cleanser, Toner, Mostizurier and Sunscreen!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "What is the price range of your products?", "How expensive is Nuria's skincare"
+            ],
+            "responses": [
+                "Nuria's product come under customer friendly budget for commercial use. However we suggest you to please vist the products available on website"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "How do i pay?", "Do accept Visa cards?", "Do you accept COD services?"
+            ],
+            "responses": [
+                "We at Nuria provide customer friendly services for safe and secure transaction. We accept COD, UPI, Credit cards "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
